@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio de selectores</title>
+    <style>
+        *{
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        p{
+            color: #555;
+        }
+        #primero p{
+            color: #369;
+        }
+        a{
+            color: #C30;
+        }
+        #primero em{
+            color: #0000BB;
+            background-color: #FFFFCC;
+        }
+        em.especial{
+            color: #FFFF00;
+            background: #000000;
+        }
+        .normal span{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="primero">
+        <p>
+           <a class="enlaces" href="http://publicacionesaltaria.com/es/tienda/112-html-css-curso-practico.html">HTML &amp; CSS: Curso práctico avanzado</a>
+        </p>
+        <p>Aunque los inicios de <a href="https://es.wikipedia.org/wiki/Internet">Internet</a> se remonta a los años sesenta, no ha sido hasta los años noventa cuando, gracias a la web, se ha extendido su uso por todo el mundo.En poco años, la web ha evolucionado enormemente: se ha pasado de paginas sencillas, con pocas imagenes y contenidos estaticos que eran visitadas por unos pocos usuarios a <em>paginas complejas, con contenidos dinamicos que provienen de bases de daros y que son visitadas por miles de usuaios al mism tiempo</em>
+        </p>
+    </div>
+    <div id="segundo" class="normal">
+        <p>
+            Todas las paginas estan internamente construidas conla misma tecnologia, con el <em class="especial">Lenguaje de marcas de hipertexto</em>(<span>Hypertext Markuo Languaje</span>,<a href="https://es.wikipedia.org/wiki/HTML">HTML</a>) y con las <em class="especial"> Hojas de estilo en cascada </em>(<span>Cascading Style Sheets</span>, <a href="https://es.wikipedia.org/wiki/CSS">CSS</a>).
+        </p>
+        <p>
+            Este libro es <em>adecuado para cualquiera que tenga interes en aprender a desarrollar sus propias paginas web</em>. No son necesarios conocimientos previos para aprender con este libro, lo unico que es necesario es saber utilizar un ordenador y saber navegar por la web.
+        </p>
+    </div>
+</body>
+</html>

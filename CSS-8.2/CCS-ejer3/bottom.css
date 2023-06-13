@@ -1,0 +1,9 @@
+h1{
+    border-bottom: 5px solid rgb(8, 250, 186);
+}
+p{
+    border-bottom: 4px dotted rgb(38, 251, 116);
+}
+div{
+    border-bottom: double rgb(9, 127, 5);
+}
